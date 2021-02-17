@@ -17,6 +17,5 @@
         ".micropy\\ProjectIOT"
     ],
     "python.linting.pylintEnabled": true,
-    "python.languageServer": "Microsoft",
-    "python.pythonPath": "C:\\Users\\robin\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+    "python.languageServer": "Microsoft"
 }

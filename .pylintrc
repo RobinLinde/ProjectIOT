@@ -1,6 +1,6 @@
 [MASTER]
 # Loaded Stubs:  esp32-micropython-1.12.0 
-init-hook='import sys;sys.path[1:1]=["src/lib",".micropy/BradenM-micropy-stubs-3cc928b/frozen", ".micropy/BradenM-micropy-stubs-e1b8ce6/frozen", ".micropy/BradenM-micropy-stubs-3cc928b/stubs", ".micropy/ProjectIOT",  ]'
+init-hook='import sys;sys.path[1:1]=["src/lib",".micropy/esp32-1.14.0/frozen", ".micropy/esp32-1.14.0/stubs", ".micropy/ProjectIOT",  ]'
 
 [MESSAGES CONTROL]
 # Only show warnings with the listed confidence levels. Leave empty to show
@@ -19,4 +19,5 @@ confidence=
 
 disable = missing-docstring, line-too-long, trailing-newlines, broad-except, logging-format-interpolation, invalid-name, empty-docstring,
         no-method-argument, assignment-from-no-return, too-many-function-args, unexpected-keyword-arg
+        # the 2nd  line deals with the limited information in the generated stubs.from-no-return, too-many-function-args, unexpected-keyword-arg
         # the 2nd  line deals with the limited information in the generated stubs.
