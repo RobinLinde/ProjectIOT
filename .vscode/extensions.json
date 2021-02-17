@@ -5,6 +5,7 @@
     "recommendations": [
         "ms-python.python",
         "visualstudioexptteam.vscodeintellicode",
-        "pycom.pymakr"
+        "pycom.pymakr",
+        "ms-python.vscode-pylance"
     ]
 }

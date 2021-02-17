@@ -16,6 +16,11 @@
         ".micropy\\esp32-1.14.0\\stubs",
         ".micropy\\ProjectIOT"
     ],
+    "python.analysis.extraPaths": [
+        ".micropy\\esp32-1.14.0\\frozen",
+        ".micropy\\esp32-1.14.0\\stubs",
+        ".micropy\\ProjectIOT"
+    ],
     "python.linting.pylintEnabled": true,
-    "python.languageServer": "Microsoft"
+    "python.languageServer": "Pylance"
 }
